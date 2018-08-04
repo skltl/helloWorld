@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String... args){
 
-        MessageCreator messageCreator = new MessageCreator();
+        final MessageCreator messageCreator = new MessageCreator();
 
         System.out.println(messageCreator.createMessage());
     }
